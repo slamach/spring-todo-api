@@ -31,6 +31,8 @@ docker-compose up
 After running the application check `http://localhost:8080/swagger-ui`
 to look through the documentation of the API.
 
+Public API coming soon.
+
 ## Contact
 
 Dmitry Sviridov  
