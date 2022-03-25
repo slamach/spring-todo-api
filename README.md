@@ -7,9 +7,9 @@ Create tasks and mark them as done.
 
 ### Technologies
 
-- Spring
-- Swagger
+- Spring Boot
 - PostgreSQL
+- Swagger
 - Docker
 
 ## Getting started
