@@ -1,37 +1,33 @@
 # To Do API (Spring)
 
-## About
+## About the Project
 
-Spring learning project.  
-Create tasks and mark them as done.
+Spring learning project created for learning purposes.
 
-### Technologies
+You can register, login, add tasks, edit and delete them.
+
+### Built With
 
 - Spring Boot
 - PostgreSQL
 - Swagger
 - Docker
 
-## Getting started
+## Installation and Usage
 
-### Build it with Gradle
+Build the application using Gradle.
 
 ```
 ./gradlew build
 ```
 
-### And run with Docker
+Additionally configure `docker-compose.yml` and run it using Docker Compose.
 
 ```
 docker-compose up
 ```
 
-### Check API docs
-
-After running the application check `http://localhost:8080/swagger-ui`
-to look through the documentation of the API.
-
-Public API coming soon.
+After running the application you can look through the documentation at `http://localhost:8080/swagger-ui`.
 
 ## Contact
 
