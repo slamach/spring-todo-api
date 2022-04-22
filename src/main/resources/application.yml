@@ -9,10 +9,15 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
 
 springdoc:
   api-docs:
     path: "/api-docs"
   swagger-ui:
     path: "/swagger-ui"
+
+app:
+  tokenSecret: ${SECURITY_SECRET}
+  tokenIssuer: slamach
+  tokenExpirationMSec: 864000000

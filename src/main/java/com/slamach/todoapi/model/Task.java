@@ -1,6 +1,6 @@
 package com.slamach.todoapi.model;
 
-import com.slamach.todoapi.dto.TaskDto;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -19,12 +19,14 @@ public class Task {
   private String content;
   @Column(nullable = false)
   private Boolean completed;
-//  @ManyToOne
-//  @JoinColumn(nullable = false)
-//  private User owner;
+  @ManyToOne
+  @JoinColumn(nullable = false)
+  @JsonIgnore
+  private User owner;
 
-  public Task(TaskDto taskDto) {
-    this.content = taskDto.getContent();
-    this.completed = taskDto.getCompleted();
+  public Task(String content, Boolean completed, User owner) {
+    this.content = content;
+    this.completed = completed;
+    this.owner = owner;
   }
 }

@@ -2,7 +2,7 @@
 
 ## About the Project
 
-Spring learning project created for learning purposes.
+Spring To Do API created for learning purposes.
 
 You can register, login, add tasks, edit and delete them.
 
