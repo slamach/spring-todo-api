@@ -31,6 +31,6 @@ After running the application you can look through the documentation at `http://
 
 ## Contact
 
-Dmitry Sviridov  
+Dmitrii Sviridov  
 Telegram: [slamach](https://t.me/slamach)  
 Email: sviridov.dvv@gmail.com
